@@ -1,0 +1,150 @@
+body {
+    margin: 0;
+    max-width: 1600px;
+
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+
+    background-color: #fff;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+
+p {
+    margin: 0 0 10px 0;
+}
+
+.wrapper {
+    width: 100%;
+    max-width: 1062px;
+    margin: 0 auto;
+}
+
+
+/* Header
+************* */
+
+.header {
+    width: 100%;
+    height: 95px;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+.header__inner {
+    padding-left: 148px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header__logo {
+    padding: 12px 28px;
+}
+
+
+/* Nav
+************* */
+
+.nav {
+    display: flex;
+}
+
+.nav__link {
+    margin: 0px 45px;
+
+    color: #fff;
+    text-decoration: none;
+    opacity: .75;
+}
+
+.nav__link--active {
+    border-bottom: 2px solid #fff;
+}
+
+
+/* Your Life
+************* */
+
+.your-life {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    height: 744px;
+    padding-top: 95px;
+     
+    background: #31344e
+    url("img/intro_bg.png");
+    background-size: cover;
+}
+
+.your-life__inner {
+    padding-left: 164px;
+    width: 100%;
+    height: 470px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.your-life__title {
+    margin-top: 93px;
+    margin-bottom: 19px;
+    font-size: 64px;
+    line-height: 75px;
+    letter-spacing: 4.5px;
+    font-weight: 700;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.your-life__subtitle {
+    margin: 0 auto;
+    margin-bottom: 31px;
+    width: 504px;
+    font-size: 18px;
+    line-height: 25px;
+    font-weight: 400;
+    color: #fff;
+    text-align: center;
+}
+
+.btn {
+    display: inline-block;
+    vertical-align: top;
+    padding: 15px 47px;
+
+    border: 0;
+    cursor: pointer;
+
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align: center; 
+    background-color: #00AFDB;
+}
+
+.social {
+    display: flex;
+    justify-content: center;
+    margin-top: 182px;
+}
+
+.social a {
+    margin: 0 15px;
+}
