@@ -412,3 +412,103 @@ p {
     height: 46px;
     cursor: pointer;
 }
+
+
+/* Download
+************* */
+
+.download {
+    width: 1600px;
+    height: 464px;  
+
+    padding: 120px 560px 180px;
+    text-align: center;
+
+    background: #F5F6F7;
+}
+
+.download__title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+
+    letter-spacing: 1px;
+    text-transform: uppercase;
+
+    color: #373737;
+
+    margin-bottom: 20px;
+}
+
+.download__subtitle {
+    font-size: 14px;
+    line-height: 20px;
+
+    color: #4E4E4E;
+
+    margin-bottom: 30px;
+}
+
+.btn--download {
+    
+    padding: 15px 18px;
+}
+
+.btn__img {
+    margin-right: 22px;
+    cursor: pointer;
+}
+
+.btn__img:last-child {
+    margin-right: 0;
+}
+
+
+/* Footer
+************* */
+
+.footer {
+    width: 1600px;
+    height: 185px;
+    display: flex;
+    justify-content: space-between;
+
+    padding: 60px 160px;
+
+    background: #000;
+}
+
+.footer__nav {
+    padding-top: 13px;
+}
+
+.footer__link {
+    text-decoration: none;
+    font-style: 14px;
+    line-height: 20px;
+
+    margin-right: 16px;
+    padding-right: 20px;
+
+    border-right: 1px solid #4E4E4E;
+
+    color: #fff;
+}
+
+.footer__link:last-child {
+    border-right: 0;
+    padding-right: 0;
+    margin-right: 0;
+}
+
+.footer__logo {
+    padding-right: 66px;
+}
+
+.footer__text {
+    padding-top: 13px;
+
+    line-height: 20px;
+    color: #818181;
+}
