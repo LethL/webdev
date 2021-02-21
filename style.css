@@ -304,6 +304,7 @@ p {
 
 .implement {
     width: 1600px;
+    height: 842px;
     display: flex;
 
     background: #fff;
@@ -318,6 +319,8 @@ p {
 
 .implement__img {
     justify-content: center;
+    width: 407px;
+    height: 582px;
 }
 
 .implement_col--right {
@@ -327,7 +330,7 @@ p {
     width: 800px;
 
     padding-left: 15px;
-    padding-top: 120px;
+    padding-bottom: 20px;
 }
 
 .implement__title {
@@ -359,4 +362,53 @@ p {
     width: 180px;
 
     padding: 15px 47px;
+}
+
+
+/* Sign Up
+************* */
+
+.sign {
+    width: 1600px;
+    height: 524px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    background: url("img/signUp-bg.png");
+    background-size: cover;
+}
+
+.sign__title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    text-align: center;
+
+    margin-bottom: 30px;
+
+    color: #FFFFFF;
+}
+
+.sign__form {
+    margin-bottom: 20px;
+
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.sign__input {
+    width: 340px;
+    height: 46px;
+    padding-left: 22px;
+}
+
+.sign__img {
+    width: 66px;
+    height: 46px;
+    cursor: pointer;
 }
